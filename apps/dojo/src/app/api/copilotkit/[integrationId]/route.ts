@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import {
   CopilotRuntime,
   ExperimentalEmptyAdapter,
@@ -28,4 +29,3 @@ export async function POST(request: NextRequest) {
 
   return handleRequest(request);
 }
-
